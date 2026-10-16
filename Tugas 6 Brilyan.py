@@ -163,11 +163,4 @@ if __name__ == "__main__":
     ]
     tabel(["Metode", "Jenis", "Awal", "Akar", "Galat", "Iterasi"], baris, [18, 9, 10, 10, 10, 7])
 
-    # 6. Semua akar dengan bagidua
-    subjudul("Bonus: ketiga akar dengan bagidua")
-    baris = []
-    for (sa, sb) in selang:
-        c, n, _ = bagidua(sa, sb)
-        baris.append([f"[{sa:.1f}, {sb:.1f}]", f"{c:.6f}", n])
-    tabel(["Selang", "Akar", "Iterasi"], baris, [14, 10, 8])
     judul("SELESAI")
